@@ -3,7 +3,7 @@ import abc
 class Calculator(abc.ABC):
     @abc.abstractmethod
     def sum(self, a: int, b: int) -> int:
-        """Returns the sum of the arguments"""
+        """Returns the sum of gitthe arguments"""
         pass
     @abc.abstractmethod
     def minus(self, a: int, b: int) -> int:
