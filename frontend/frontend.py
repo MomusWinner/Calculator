@@ -2,8 +2,8 @@ from backend.interface import Calculator
 
 def run(backend: Calculator):
     while True:
-        a = int(input("Input a: "))
-        b = int(input("Input b: "))
+        a = float(input("Input a: "))
+        b = float(input("Input b: "))
         operation = input("Operation ('minus' or 'plus'): ")
         if operation == 'plus':
             print(backend.sum(a, b))
